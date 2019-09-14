@@ -7,10 +7,10 @@ def get_date(created):
 	return dt.datetime.fromtimestamp(created)
 
 
-reddit = praw.Reddit(client_id='sUXh7f-hkzflvw', \
-					 client_secret = 'aE4QTv-Vxh2QbPxmmAYhtKW5Y2k', \
+reddit = praw.Reddit(client_id='CLIENT_ID', \
+					 client_secret = 'SECRET_CODE', \
 					 user_agent = 'Scrape', \
-					 username = 'konic899', \
+					 username = 'REDDIT USERNAME', \
 					 password = 'REDDIT_PASSWORD')
 
 subreddit = reddit.subreddit('cscareerquestions')
